@@ -1,0 +1,81 @@
+body
+{
+    background-color: cornsilk;
+    color: black;
+    font-family: sans-serif;
+}
+header
+{
+    background-color: cornflowerblue; 
+    background-image: url(blackandwhiteme.png);
+    background-position: left;
+    background-size: 225px;
+    background-repeat: no-repeat;
+    height: 220px;
+    display: block;    
+}
+
+h1
+{
+   padding-top: 60px;
+   padding-left: 700px;
+   font-size: 95px;
+}
+
+h2
+{
+    padding-left: 750px;
+    font-size: 45px;
+}
+
+h3
+{
+    padding-left: 650px;
+    font-size: 45px;
+}
+
+h4
+{
+    padding-left: 650px;
+    font-size: 45px;
+}
+
+a
+{
+    padding-left: 870px;
+    font-size: 25px;
+}
+
+p
+{
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+#medrumming
+{
+    background-image: url(medrumming.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: center;
+    height: 200px;
+    display: block;
+}
+
+ul
+{
+    font-size: 190%;
+    padding-left: 23em
+}
+
+.column {
+  float: right;
+  width: 40%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
